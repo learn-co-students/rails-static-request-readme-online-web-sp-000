@@ -27,3 +27,6 @@ end
 group :test do
   gem 'rspec-collection_matchers'
 end
+
+gem 'standardrb'
+gem 'htmlbeautifier'
