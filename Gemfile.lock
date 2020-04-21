@@ -208,6 +208,7 @@ DEPENDENCIES
   capybara
   coffee-rails
   database_cleaner
+  execjs
   faker
   jquery-rails
   phantomjs
