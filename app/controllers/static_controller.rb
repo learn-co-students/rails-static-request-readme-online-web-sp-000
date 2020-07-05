@@ -3,3 +3,5 @@ class StaticController < ApplicationController
         "some_page"
     end
 end
+
+#removed render
