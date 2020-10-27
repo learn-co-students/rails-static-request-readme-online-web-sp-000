@@ -1,3 +1,9 @@
+
+# Notes
+
+See Lab 1 file, 'blog-flash', for completed exercise
+
+
 # Rails Static Request
 
 ## Routing
