@@ -105,7 +105,7 @@ GEM
       byebug (~> 11.0)
       pry (~> 0.10)
     public_suffix (4.0.1)
-    puma (4.3.5)
+    puma (4.3.6)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-test (0.6.3)
@@ -140,7 +140,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    rake (13.0.0)
+    rake (13.0.1)
     rb-readline (0.5.5)
     rdoc (4.3.0)
     regexp_parser (1.6.0)
@@ -213,7 +213,7 @@ DEPENDENCIES
   phantomjs
   poltergeist
   pry-byebug
-  puma
+  puma (= 4.3.6)
   rack_session_access
   rails (= 5.0.7.1)
   rails-controller-testing
@@ -227,4 +227,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   2.0.2
+   2.1.4
