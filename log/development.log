@@ -614,3 +614,31 @@ puma (4.2.0) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
   Rendering /Users/kellyegreene/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/kellyegreene/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /Users/kellyegreene/.rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.6ms)
+Started GET "/about" for ::1 at 2021-02-12 13:01:09 -0500
+Processing by StaticController#about as HTML
+  Rendering static/some_page.html.erb
+  Rendered static/some_page.html.erb (6.4ms)
+Completed 200 OK in 74ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2021-02-12 13:03:08 -0500
+Processing by StaticController#about as HTML
+  Rendering static/about.html.erb
+  Rendered static/about.html.erb (0.9ms)
+Completed 200 OK in 42ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2021-02-12 13:03:37 -0500
+Processing by StaticController#about as HTML
+  Rendering static/about.html.erb
+  Rendered static/about.html.erb (1.7ms)
+Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for ::1 at 2021-02-12 13:03:39 -0500
+Processing by StaticController#about as HTML
+  Rendering static/about.html.erb
+  Rendered static/about.html.erb (0.4ms)
+Completed 200 OK in 18ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
