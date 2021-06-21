@@ -13,3 +13,4 @@ unless defined?(Spring)
     require 'spring/binstub'
   end
 end
+loads.default_lockfile.PATH_SEPARATOR.end
